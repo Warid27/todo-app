@@ -25,9 +25,9 @@
     "vite": "^7.1.9"
   },
   "dependencies": {
-    "@libsql/client": "^0.15.15",
-    "@prisma/adapter-libsql": "^6.17.0",
-    "@prisma/client": "^5.7.1",
+    "@libsql/client": "^0.8.1",
+    "@prisma/adapter-libsql": "^5.22.0",
+    "@prisma/client": "^5.22.0",
     "bcrypt": "^5.1.1",
     "flowbite": "^2.2.1",
     "flowbite-svelte": "^0.46.2"
