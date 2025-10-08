@@ -2,6 +2,7 @@
   "name": "todo-list-app",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -12,20 +13,20 @@
     "seed": "node prisma/seed.js"
   },
   "devDependencies": {
-    "@sveltejs/adapter-auto": "^3.3.1",
-    "@sveltejs/kit": "^2.7.6",
+    "@sveltejs/adapter-auto": "^6.1.1",
+    "@sveltejs/adapter-netlify": "^5.2.4",
+    "@sveltejs/kit": "^2.46.2",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
     "prisma": "^5.20.0",
-    "svelte": "^5.0.0",
+    "svelte": "^5.39.10",
     "tailwindcss": "^3.4.13",
-    "vite": "^5.4.8"
+    "vite": "^7.1.9"
   },
   "dependencies": {
     "@prisma/client": "^5.7.1",
     "bcrypt": "^5.1.1",
     "flowbite": "^2.2.1",
     "flowbite-svelte": "^0.46.2"
-  },
-  "type": "module"
+  }
 }
